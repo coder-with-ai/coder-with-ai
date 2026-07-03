@@ -2,9 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:06B6D4&height=200&section=header" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&height=60&lines=Hey%2C+I'm+Anuj+%F0%9F%91%8B&v=2026-07-04" alt="Name Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&height=60&lines=Hey%2C+I'm+Anuj+%F0%9F%91%8B&v=2026-07-03" alt="Name Typing SVG" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=06B6D4&center=true&vCenter=true&width=650&lines=AI+%26+ML+Engineering+Undergrad;Building+with+Python+%2B+Azure+%2B+GenAI;Exploring+Cybersecurity+%26+Cloud;Always+Curious%2C+Always+Learning&v=2026-07-04" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=06B6D4&center=true&vCenter=true&width=650&lines=AI+%26+ML+Engineering+Undergrad;Building+with+Python+%2B+Azure+%2B+GenAI;Exploring+Cybersecurity+%26+Cloud;Always+Curious%2C+Always+Learning&v=2026-07-03" alt="Typing SVG" />
 
 </div>
 
@@ -54,12 +54,12 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=coder-with-ai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&v=2026-07-04"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-with-ai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&v=2026-07-04"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=coder-with-ai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&v=2026-07-03"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-with-ai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&v=2026-07-03"/>
 
-<img src="https://streak-stats.demolab.com/?user=coder-with-ai&theme=tokyonight&hide_border=true&background=0D1117&v=2026-07-04" alt="streak stats"/>
+<img src="https://streak-stats.demolab.com/?user=coder-with-ai&theme=tokyonight&hide_border=true&background=0D1117&v=2026-07-03" alt="streak stats"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=coder-with-ai&theme=tokyo-night&hide_border=true&bg_color=0D1117&v=2026-07-04" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=coder-with-ai&theme=tokyo-night&hide_border=true&bg_color=0D1117&v=2026-07-03" width="95%"/>
 
 </div>
 
