@@ -57,7 +57,7 @@
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=coder-with-ai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117"/>
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-with-ai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=coder-with-ai&theme=tokyonight&hide_border=true&background=0D1117" alt="streak stats"/>
+<img src="https://streak-stats.demolab.com/?user=coder-with-ai&theme=tokyonight&hide_border=true&background=0D1117" alt="streak stats"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=coder-with-ai&theme=tokyo-night&hide_border=true&bg_color=0D1117" width="95%"/>
 
@@ -73,9 +73,7 @@
 <a href="https://www.linkedin.com/in/anuj-saini-2b253837b" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
-<a href="mailto:your-email@example.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
+
 
 </div>
 
