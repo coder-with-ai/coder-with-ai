@@ -1,0 +1,16 @@
+<svg viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="150" fill="url(#bgGrad2)"/>
+
+  <g opacity="0.28">
+    <path d="M0,55 Q150,25 300,55 T600,55 T900,55 T1200,55 T1500,55 V0 H0 Z" fill="#ffffff">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 300,0; 0,0" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
