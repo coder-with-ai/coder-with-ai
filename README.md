@@ -54,8 +54,8 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=coder-with-ai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&v=2026-07-03"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-with-ai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&v=2026-07-03"/>
+<img height="180" src="https://github-stats-extended.vercel.app/api?username=coder-with-ai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&v=2026-07-03"/>
+<img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=coder-with-ai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&v=2026-07-03"/>
 
 <img src="https://streak-stats.demolab.com/?user=coder-with-ai&theme=tokyonight&hide_border=true&background=0D1117&v=2026-07-03" alt="streak stats"/>
 
