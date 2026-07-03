@@ -1,17 +1,17 @@
 import re
-import datetime
+import time
 
 def main():
-    # Get today's date in UTC
-    today = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d')
-    print(f"Today's UTC date: {today}")
+    # Get current Unix timestamp
+    timestamp = str(int(time.time()))
+    print(f"Current Unix timestamp: {timestamp}")
 
     # Read README.md
     with open('README.md', 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Replace all instances of v=YYYY-MM-DD with today's date
-    new_content = re.sub(r'v=\d{4}-\d{2}-\d{2}', f'v={today}', content)
+    # Replace all instances of v=YYYY-MM-DD or v=timestamp with the new timestamp
+    new_content = re.sub(r'v=\d{4}-\d{2}-\d{2}|v=\d+', f'v={timestamp}', content)
 
     # Write back to README.md
     with open('README.md', 'w', encoding='utf-8') as f:
