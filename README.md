@@ -1,14 +1,16 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:06B6D4&height=200&section=header" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=06B6D4&center=true&vCenter=true&width=650&lines=AI+%26+ML+Engineering+Undergrad;Building+with+Python+%2B+Azure+%2B+GenAI;Exploring+Cybersecurity+%26+Cloud;Always+Curious%2C+Always+Learning" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&height=60&lines=Hey%2C+I'm+Anuj+%F0%9F%91%8B" alt="Name Typing SVG" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=06B6D4&center=true&vCenter=true&width=650&lines=AI+%26+ML+Engineering+Undergrad;Building+with+Python+%2B+Azure+%2B+GenAI;Exploring+Cybersecurity+%26+Cloud;Always+Curious%2C+Always+Learning" alt="Typing SVG" />
 
 </div>
 
 <br/>
 
-<img src="assets/divider.svg" width="100%" height="4"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:06B6D4&height=3" width="100%"/>
 
 ## 🚀 About Me
 
@@ -22,7 +24,7 @@
 
 <br clear="right"/>
 
-<img src="assets/divider.svg" width="100%" height="4"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:06B6D4&height=3" width="100%"/>
 
 ## 🛠️ Tech Stack
 
@@ -46,7 +48,7 @@
 
 </div>
 
-<img src="assets/divider.svg" width="100%" height="4"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:06B6D4&height=3" width="100%"/>
 
 ## 📊 GitHub Stats
 
@@ -61,7 +63,7 @@
 
 </div>
 
-<img src="assets/divider.svg" width="100%" height="4"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:06B6D4&height=3" width="100%"/>
 
 ## 🏆 GitHub Trophies
 
@@ -69,7 +71,7 @@
 <img src="https://github-profile-trophy.vercel.app/?username=coder-with-ai&theme=tokyonight&no-frame=true&row=1&column=7" width="100%"/>
 </div>
 
-<img src="assets/divider.svg" width="100%" height="4"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:06B6D4&height=3" width="100%"/>
 
 ## 🐍 Contribution Snake
 
@@ -79,7 +81,7 @@
 
 > 🎮 This snake animates your real contribution graph automatically — set it up in ~2 minutes via the free [`platane/snk`](https://github.com/Platane/snk) GitHub Action (instructions below).
 
-<img src="assets/divider.svg" width="100%" height="4"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:06B6D4&height=3" width="100%"/>
 
 ## 🌐 Connect With Me <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif" width="35"/>
 
@@ -102,4 +104,5 @@
 
 </div>
 
-<img src="assets/footer.svg" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:6366F1&height=120&section=footer" width="100%"/>
+
