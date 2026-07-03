@@ -58,7 +58,14 @@
 
 <img src="profile/streak.svg?v=1783112839" alt="streak stats"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=coder-with-ai&theme=tokyo-night&hide_border=true&bg_color=0D1117&v=1783112839" width="95%"/>
+<br/>
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/github-contribution-grid-snake-dark.svg?v=1783112839">
+  <source media="(prefers-color-scheme: light)" srcset="profile/github-contribution-grid-snake.svg?v=1783112839">
+  <img alt="github contribution grid snake" src="profile/github-contribution-grid-snake.svg?v=1783112839" width="100%">
+</picture>
 
 </div>
 

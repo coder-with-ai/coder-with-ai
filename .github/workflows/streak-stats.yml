@@ -28,13 +28,23 @@ jobs:
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       
+      - name: 🐍 Generate GitHub Contribution Grid Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/github-contribution-grid-snake.svg
+            profile/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
       - name: 📊 Check if changes were made
         id: verify
         run: |
           if [ "${{ github.event_name }}" = "push" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "changes=true" >> $GITHUB_OUTPUT
             echo "Forcing update due to ${{ github.event_name }} event."
-          elif ! git diff --quiet profile/streak.svg; then
+          elif ! git diff --quiet profile/streak.svg profile/github-contribution-grid-snake.svg profile/github-contribution-grid-snake-dark.svg; then
             echo "changes=true" >> $GITHUB_OUTPUT
             echo "Stats changes detected!"
           else
@@ -51,7 +61,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
-          git add README.md profile/streak.svg
+          git add README.md profile/streak.svg profile/github-contribution-grid-snake.svg profile/github-contribution-grid-snake-dark.svg
           git commit -m "♻️ Auto-update streak stats and cache busters [skip ci]"
           git push
       
