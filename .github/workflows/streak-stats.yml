@@ -1,33 +1,57 @@
-name: Update streak stats
+name: 🔄 Auto Update README Cache Busters
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # runs daily at 03:00 UTC
-  push:
-    paths:
-      - ".github/workflows/streak-stats.yml"
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+    # Runs at 12:00 AM UTC daily
+    - cron: '0 0 * * *'
+  
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
 
 jobs:
-  build:
+  update-cache:
     runs-on: ubuntu-latest
+    
     permissions:
       contents: write
+      
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate streak stats
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&background=0D1117
-          path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit streak stats
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: 🔧 Update Cache Buster Parameters
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/streak.svg
-          git commit -m "Update streak stats" || exit 0
+          # Get today's date in YYYY-MM-DD format
+          TODAY=$(date +%Y-%m-%d)
+          echo "Today's date: $TODAY"
+          
+          # Replace all v=YYYY-MM-DD with today's date
+          sed -i "s/v=[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}/v=$TODAY/g" README.md
+          
+          echo "✅ Updated all cache busters to: $TODAY"
+      
+      - name: 📊 Check if changes were made
+        id: verify
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes needed"
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected"
+            echo "changes=true" >> $GITHUB_OUTPUT
+            git diff README.md
+          fi
+      
+      - name: 📤 Commit and Push Changes
+        if: steps.verify.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add README.md
+          git commit -m "♻️ Auto-update cache buster: $(date +%Y-%m-%d)"
           git push
-
+      
+      - name: ✅ Success Message
+        run: |
+          echo "🎉 README cache busters updated successfully!"
+          echo "All images will be refreshed today"
