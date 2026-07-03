@@ -57,7 +57,7 @@
 <img height="180" src="https://github-stats-extended.vercel.app/api?username=coder-with-ai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&v=2026-07-03"/>
 <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=coder-with-ai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&v=2026-07-03"/>
 
-<img src="https://streak-stats.demolab.com/?user=coder-with-ai&theme=tokyonight&hide_border=true&background=0D1117&v=2026-07-03" alt="streak stats"/>
+<img src="profile/streak.svg?v=2026-07-03" alt="streak stats"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=coder-with-ai&theme=tokyo-night&hide_border=true&bg_color=0D1117&v=2026-07-03" width="95%"/>
 
