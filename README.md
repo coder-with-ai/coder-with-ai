@@ -63,23 +63,6 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:06B6D4&height=3" width="100%"/>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=coder-with-ai&theme=tokyonight&no-frame=true&row=1&column=7" width="100%"/>
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:06B6D4&height=3" width="100%"/>
-
-## 🐍 Contribution Snake
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg" alt="snake animation" width="90%"/>
-</div>
-
-> 🎮 This snake animates your real contribution graph automatically — set it up in ~2 minutes via the free [`platane/snk`](https://github.com/Platane/snk) GitHub Action (instructions below).
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366F1,100:06B6D4&height=3" width="100%"/>
 
