@@ -54,8 +54,7 @@
 
 <div align="center">
 
-<img height="180" src="https://github-stats-extended.vercel.app/api?username=coder-with-ai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&v=1783112489"/>
-<img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=coder-with-ai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&v=1783112489"/>
+
 
 <img src="profile/streak.svg?v=1783112489" alt="streak stats"/>
 
