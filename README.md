@@ -2,9 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:06B6D4&height=200&section=header" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&height=60&lines=Hey%2C+I'm+Anuj+%F0%9F%91%8B&v=1783112839" alt="Name Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&height=60&lines=Hey%2C+I'm+Anuj+%F0%9F%91%8B&v=1783113864" alt="Name Typing SVG" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=06B6D4&center=true&vCenter=true&width=650&lines=AI+%26+ML+Engineering+Undergrad;Building+with+Python+%2B+Azure+%2B+GenAI;Exploring+Cybersecurity+%26+Cloud;Always+Curious%2C+Always+Learning&v=1783112839" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=06B6D4&center=true&vCenter=true&width=650&lines=AI+%26+ML+Engineering+Undergrad;Building+with+Python+%2B+Azure+%2B+GenAI;Exploring+Cybersecurity+%26+Cloud;Always+Curious%2C+Always+Learning&v=1783113864" alt="Typing SVG" />
 
 </div>
 
@@ -56,15 +56,15 @@
 
 
 
-<img src="profile/streak.svg?v=1783112839" alt="streak stats"/>
+<img src="profile/streak.svg?v=1783113864" alt="streak stats"/>
 
 <br/>
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile/github-contribution-grid-snake-dark.svg?v=1783112839">
-  <source media="(prefers-color-scheme: light)" srcset="profile/github-contribution-grid-snake.svg?v=1783112839">
-  <img alt="github contribution grid snake" src="profile/github-contribution-grid-snake.svg?v=1783112839" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="profile/github-contribution-grid-snake-dark.svg?v=1783113864">
+  <source media="(prefers-color-scheme: light)" srcset="profile/github-contribution-grid-snake.svg?v=1783113864">
+  <img alt="github contribution grid snake" src="profile/github-contribution-grid-snake.svg?v=1783113864" width="100%">
 </picture>
 
 </div>
