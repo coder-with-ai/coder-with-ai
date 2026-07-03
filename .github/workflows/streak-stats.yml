@@ -2,8 +2,8 @@ name: 🔄 Auto Update README Cache Busters
 
 on:
   schedule:
-    # Runs at 12:00 AM UTC daily
-    - cron: '0 0 * * *'
+    # Runs every hour
+    - cron: '0 * * * *'
   push:
     branches:
       - main
@@ -28,20 +28,23 @@ jobs:
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: 🔧 Update Cache Buster Parameters
-        run: python3 .github/scripts/update_cache.py
-      
       - name: 📊 Check if changes were made
         id: verify
         run: |
-          if git diff --quiet README.md profile/streak.svg; then
-            echo "No changes needed"
-            echo "changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "Changes detected"
+          if [ "${{ github.event_name }}" = "push" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "changes=true" >> $GITHUB_OUTPUT
-            git diff README.md profile/streak.svg
+            echo "Forcing update due to ${{ github.event_name }} event."
+          elif ! git diff --quiet profile/streak.svg; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Stats changes detected!"
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected."
           fi
+      
+      - name: 🔧 Update Cache Buster Parameters
+        if: steps.verify.outputs.changes == 'true'
+        run: python3 .github/scripts/update_cache.py
       
       - name: 📤 Commit and Push Changes
         if: steps.verify.outputs.changes == 'true'
