@@ -57,9 +57,7 @@
 
 
 <img src="profile/streak.svg?v=1788402264" alt="streak stats"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=coder-with-ai&theme=tokyo-night&hide_border=true&bg_color=0D1117&v=1788402264" width="95%"/>
-
+<!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=coder-with-ai&theme=tokyo-night&hide_border=true&bg_color=0D1117&v=1788402264" width="95%"/> -->
 <br/>
 <br/>
 
